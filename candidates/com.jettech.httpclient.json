@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "com.jettech.httpclient",
+  "publisher": "jettech",
+  "version": "0.2.0",
+  "name": "HTTP Client",
+  "description": "A Postman-style HTTP/gRPC workbench: compose requests, import OpenAPI, sync via WebDAV, and inspect responses through a native sidecar.",
+  "icon": "https://raw.githubusercontent.com/renpengkai/dbx-plugin-http-client/0.2.0/assets/plugin.svg",
+  "tags": [
+    "http",
+    "grpc",
+    "openapi",
+    "swagger",
+    "webdav",
+    "api",
+    "debugging",
+    "network"
+  ],
+  "permissions": [
+    "host.events",
+    "host.workbench"
+  ],
+  "source": "https://github.com/renpengkai/dbx-plugin-http-client",
+  "homepage": "https://github.com/renpengkai/dbx-plugin-http-client",
+  "license": "Apache-2.0",
+  "releaseNotes": "0.2.0：支持 gRPC（Server Reflection + 一元调用）、OpenAPI/Swagger 导入、WebDAV 同步集合/环境、适配 DBX Dock 快捷入口（appToolbar + panel）。保留 0.1.8：侧栏「⋯」菜单/搜索/环境导入导出、Ctrl+S 原地保存与另存为、连接存储目录与英语默认界面。",
+  "localizations": {
+    "zh-CN": {
+      "name": "HTTP 客户端",
+      "description": "类似 Postman 的 HTTP/gRPC 接口调试工作台：构造请求、导入 OpenAPI、经 WebDAV 同步，并通过原生 Sidecar 发送并查看响应。"
+    }
+  },
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/renpengkai/dbx-plugin-http-client/releases/download/0.2.0/com.jettech.httpclient-0.2.0-darwin-arm64.dbxp",
+      "sha256": "77c7e2f7bc73f16b0864fa0ec6b0ae28ef18ed824bc1e690069ead7e43fe78cb",
+      "size": 9477339
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/renpengkai/dbx-plugin-http-client/releases/download/0.2.0/com.jettech.httpclient-0.2.0-darwin-x64.dbxp",
+      "sha256": "db36b91997a4268006758e944157a29d3aca003a42104087f8f036adb8c1a4e7",
+      "size": 9907214
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/renpengkai/dbx-plugin-http-client/releases/download/0.2.0/com.jettech.httpclient-0.2.0-linux-arm64.dbxp",
+      "sha256": "ed325a951abd470e75e08ca7266f9cefb766ff2ec2ae78a988f3ca7cc761c482",
+      "size": 9398084
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/renpengkai/dbx-plugin-http-client/releases/download/0.2.0/com.jettech.httpclient-0.2.0-linux-x64.dbxp",
+      "sha256": "fc2c6d845ddf459d714c2332620b3071c6424cb6f4806f29157e5049b82babf3",
+      "size": 10002187
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/renpengkai/dbx-plugin-http-client/releases/download/0.2.0/com.jettech.httpclient-0.2.0-windows-x64.dbxp",
+      "sha256": "dbc9c2c944f13071e19871ca97cd6ddd39c3c6ab59c22688b5a9097538184e78",
+      "size": 10146113
+    }
+  ]
+}
